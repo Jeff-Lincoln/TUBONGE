@@ -9,7 +9,11 @@ const HomePage = () => {
   const user = auth().currentUser;
   const [dialogueOpen, setDialogueOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+<<<<<<< HEAD
   const navigation = useNavigation();
+=======
+  // const navigation = useNavigation();
+>>>>>>> streamsdk-branch
 
   const handleSignOut = () => {
     setIsLoading(true);

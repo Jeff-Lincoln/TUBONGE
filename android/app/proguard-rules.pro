@@ -17,4 +17,10 @@
 
 -keep class org.webrtc.** { *; }
 
+<<<<<<< HEAD
+=======
+
+-keep class org.webrtc.** { *; }
+
+>>>>>>> streamsdk-branch
 # @generated end expo-build-properties

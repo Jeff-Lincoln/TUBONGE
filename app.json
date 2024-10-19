@@ -1,7 +1,12 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "tubonge",
     "slug": "tubonge",
+=======
+    "name": "tubonge1",
+    "slug": "tubonge1",
+>>>>>>> streamsdk-branch
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +18,25 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
+<<<<<<< HEAD
       "supportsTablet": true
+=======
+      "supportsTablet": true,
+      "bundleIdentifier": "com.galaxies.firebase",
+      "googleServicesFile": "./GoogleService-Info.plist"
+>>>>>>> streamsdk-branch
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+<<<<<<< HEAD
       }
+=======
+      },
+      "package": "com.galaxies.firebase",
+      "googleServicesFile": "./google-services.json"
+>>>>>>> streamsdk-branch
     },
     "web": {
       "bundler": "metro",
@@ -28,12 +45,15 @@
     },
     "plugins": [
 <<<<<<< HEAD
+<<<<<<< HEAD
       "expo-router"
     ],
     "experiments": {
       "typedRoutes": true
     }
 =======
+=======
+>>>>>>> streamsdk-branch
       "expo-router",
       [
         "expo-build-properties",
@@ -72,6 +92,9 @@
       }
     },
     "owner": "lincoln_jeff"
+<<<<<<< HEAD
 >>>>>>> f5199ab (added streamsdk dep)
+=======
+>>>>>>> streamsdk-branch
   }
 }

@@ -1,8 +1,17 @@
+<<<<<<< HEAD
 import { Stack } from "expo-router";
 
 export default function RootLayout() {
 <<<<<<< HEAD
 =======
+=======
+import auth, { FirebaseAuthTypes } from "@react-native-firebase/auth";
+import { Stack, useRouter, useSegments } from "expo-router";
+import { useEffect, useState } from "react";
+import { ActivityIndicator, View } from "react-native";
+
+export default function RootLayout() {
+>>>>>>> streamsdk-branch
   const [initializing, setInitializing ] = useState(true);
   const [user, setUser] = useState<FirebaseAuthTypes.User | null>();
 
@@ -49,10 +58,21 @@ export default function RootLayout() {
   </View>);
   
 
+<<<<<<< HEAD
 >>>>>>> f5199ab (added streamsdk dep)
   return (
     <Stack>
       <Stack.Screen name="index" />
+=======
+  return (
+    <Stack>
+      <Stack.Screen name="index" options={{
+        headerShown: false,
+      }} />
+      <Stack.Screen name="(auth)" options={{
+        headerShown: false,
+      }} />
+>>>>>>> streamsdk-branch
     </Stack>
   );
 }

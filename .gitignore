@@ -19,5 +19,10 @@ web-build/
 expo-env.d.ts
 # @end expo-cli
 .env
+<<<<<<< HEAD
 google-services.json
 GoogleService-Info.plist
+=======
+expo-env.d.ts
+
+>>>>>>> streamsdk-branch
