@@ -1,4 +1,9 @@
 package com.galaxies.firebase
+import com.oney.WebRTCModule.WebRTCModuleOptions
+import android.app.PictureInPictureParams
+import androidx.lifecycle.Lifecycle
+import android.util.Rational
+import com.streamvideo.reactnative.StreamVideoReactNative
 
 import android.os.Build
 import android.os.Bundle
@@ -58,4 +63,14 @@ class MainActivity : ReactActivity() {
       // because it's doing more than [Activity.moveTaskToBack] in fact.
       super.invokeDefaultOnBackPressed()
   }
+
+override fun onPictureInPictureModeChanged(isInPictureInPictureMode: Boolean) {
+          super.onPictureInPictureModeChanged(isInPictureInPictureMode)
+          if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O && lifecycle.currentState == Lifecycle.State.CREATED) {
+              // when user clicks on Close button of PIP
+              finishAndRemoveTask()
+          } else {
+              StreamVideoReactNative.onPictureInPictureModeChanged(isInPictureInPictureMode)
+          }
+      }
 }

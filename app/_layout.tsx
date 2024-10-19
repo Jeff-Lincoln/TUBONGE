@@ -35,7 +35,7 @@ export default function RootLayout() {
 
   }, [user, initializing])
 
-  if (initializing) 
+  if (initializing)
     return (
   <View style={{
     alignItems: 'center',

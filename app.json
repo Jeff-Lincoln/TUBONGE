@@ -35,9 +35,26 @@
       [
         "expo-build-properties",
         {
-          "ios": {
-            "useFrameworks": "static"
+          "android": {
+            "minSdkVersion": 24
           }
+        }
+      ],
+      "@stream-io/video-react-native-sdk",
+      [
+        "@config-plugins/react-native-webrtc",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone"
+        }
+      ],
+      [
+        "react-native-permissions",
+        {
+          "iosPermissions": [
+            "Camera",
+            "Microphone"
+          ]
         }
       ],
       "@react-native-firebase/app",
@@ -48,8 +65,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "18d6ed30-e125-4f16-acc2-a188b847df8c"
+        "projectId": "8af7063e-f76d-4cce-9dc7-6be5bda5b8f3"
       }
-    }
+    },
+    "owner": "lincoln_jeff"
   }
 }
