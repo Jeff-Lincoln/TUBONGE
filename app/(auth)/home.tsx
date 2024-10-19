@@ -9,7 +9,7 @@ const HomePage = () => {
   const user = auth().currentUser;
   const [dialogueOpen, setDialogueOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const navigation = useNavigation();
+  // const navigation = useNavigation();
 
   const handleSignOut = () => {
     setIsLoading(true);
