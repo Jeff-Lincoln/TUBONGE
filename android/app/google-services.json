@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "909423563751",
+    "project_id": "tubonge-5583f",
+    "storage_bucket": "tubonge-5583f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909423563751:android:d4d8fbcfd97bc0e155e342",
+        "android_client_info": {
+          "package_name": "com.galaxies.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909423563751-b6il28aj4j77kn77oimi3foqdlj6bht9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.galaxies.firebase",
+            "certificate_hash": "a0333ddacb232a2bae69045fac04da2cabc149b7"
+          }
+        },
+        {
+          "client_id": "909423563751-a24nfqakdtl9ap83pjumu3l4iavtneit.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUXt1QWi7PPF3QI7AdvphFhQtZXq8Sv2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909423563751-a24nfqakdtl9ap83pjumu3l4iavtneit.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "909423563751-jp4ohk795ekj9saovbbj6u8342mdnn8j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.galaxies.firebase"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

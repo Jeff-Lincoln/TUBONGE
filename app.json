@@ -1,12 +1,7 @@
 {
   "expo": {
-<<<<<<< HEAD
-    "name": "tubonge",
-    "slug": "tubonge",
-=======
     "name": "tubonge1",
     "slug": "tubonge1",
->>>>>>> streamsdk-branch
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -18,25 +13,34 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-<<<<<<< HEAD
-      "supportsTablet": true
-=======
       "supportsTablet": true,
+      "bitcode": false,
       "bundleIdentifier": "com.galaxies.firebase",
-      "googleServicesFile": "./GoogleService-Info.plist"
->>>>>>> streamsdk-branch
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow Tubonge to access your camera for live video calls.",
+        "NSMicrophoneUsageDescription": "Allow Tubonge to access your microphone for live audio calls."
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-<<<<<<< HEAD
-      }
-=======
       },
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "BLUETOOTH",
+        "BLUETOOTH_CONNECT",
+        "ACCESS_NETWORK_STATE",
+        "INTERNET",
+        "MODIFY_AUDIO_SETTINGS",
+        "SYSTEM_ALERT_WINDOW",
+        "WAKE_LOCK"
+      ],
       "package": "com.galaxies.firebase",
-      "googleServicesFile": "./google-services.json"
->>>>>>> streamsdk-branch
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 1
     },
     "web": {
       "bundler": "metro",
@@ -44,16 +48,6 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "expo-router"
-    ],
-    "experiments": {
-      "typedRoutes": true
-    }
-=======
-=======
->>>>>>> streamsdk-branch
       "expo-router",
       [
         "expo-build-properties",
@@ -67,8 +61,8 @@
       [
         "@config-plugins/react-native-webrtc",
         {
-          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
-          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone"
+          "cameraPermission": "Allow Tubonge to access your camera",
+          "microphonePermission": "Allow Tubonge to access your microphone"
         }
       ],
       [
@@ -87,14 +81,13 @@
       "typedRoutes": true
     },
     "extra": {
+      "router": {
+        "origin": false
+      },
       "eas": {
         "projectId": "8af7063e-f76d-4cce-9dc7-6be5bda5b8f3"
       }
     },
     "owner": "lincoln_jeff"
-<<<<<<< HEAD
->>>>>>> f5199ab (added streamsdk dep)
-=======
->>>>>>> streamsdk-branch
   }
 }
