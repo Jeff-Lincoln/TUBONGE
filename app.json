@@ -18,8 +18,8 @@
       "bundleIdentifier": "com.galaxies.firebase",
       "googleServicesFile": "./GoogleService-Info.plist",
       "infoPlist": {
-        "NSCameraUsageDescription": "Allow Tubonge to access your camera for live video calls.",
-        "NSMicrophoneUsageDescription": "Allow Tubonge to access your microphone for live audio calls."
+        "NSCameraUsageDescription": "Allow this app to access your camera for live video calls.",
+        "NSMicrophoneUsageDescription": "Allow this app to access your microphone for live audio calls."
       }
     },
     "android": {
@@ -51,6 +51,7 @@
       "expo-router",
       [
         "expo-build-properties",
+        
         {
           "android": {
             "minSdkVersion": 24
@@ -61,8 +62,8 @@
       [
         "@config-plugins/react-native-webrtc",
         {
-          "cameraPermission": "Allow Tubonge to access your camera",
-          "microphonePermission": "Allow Tubonge to access your microphone"
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone"
         }
       ],
       [
