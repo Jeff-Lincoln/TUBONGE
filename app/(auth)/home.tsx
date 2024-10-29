@@ -145,7 +145,7 @@ const HomePage = () => {
           onPress={() => setDialogueOpen(true)}
           activeOpacity={0.8}
         >
-          <MaterialCommunityIcons name="exit-run" size={24} color="#dc3545" />
+          <MaterialCommunityIcons name="exit-run" size={30} color="#fd0808" />
         </TouchableOpacity>
       </View>
 
