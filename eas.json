@@ -13,11 +13,11 @@
       },
       "ios": {
         "simulator": true
+      },
+      "env": {
+        "EXPO_PUBLIC_GET_STREAM_API_KEY": "d8dgdyfvmd57",
+        "EXPO_PUBLIC_API_URL": "https://tubonge-backend-2.onrender.com"
       }
-      // "env": {
-      //   "EXPO_PUBLIC_GET_STREAM_API_KEY": "5c62xwqpqrfb",
-      //   "EXPO_PUBLIC_API_URL": "https://zoom-backend-nu.vercel.app"
-      // }
     },
     "development-simulator": {
       "developmentClient": true,
@@ -27,7 +27,7 @@
       },
       "env": {
         "EXPO_PUBLIC_GET_STREAM_API_KEY": "d8dgdyfvmd57",
-        "EXPO_PUBLIC_API_URL": "https://bf18-2c0f-fe38-2209-b9dc-8c6f-320c-1220-fdb0.ngrok-free.app"
+        "EXPO_PUBLIC_API_URL": "https://tubonge-backend-2.onrender.com"
       }
     },
     "preview": {
@@ -39,6 +39,10 @@
       },
       "ios": {
         "simulator": true
+      },
+      "env": {
+        "EXPO_PUBLIC_GET_STREAM_API_KEY": "d8dgdyfvmd57",
+        "EXPO_PUBLIC_API_URL": "https://tubonge-backend-2.onrender.com"
       }
     },
     "production": {
@@ -46,7 +50,11 @@
         "buildType": "apk",
         "gradleCommand": ":app:assembleRelease"
       },
-      "autoIncrement": true
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_GET_STREAM_API_KEY": "d8dgdyfvmd57",
+        "EXPO_PUBLIC_API_URL": "https://tubonge-backend-2.onrender.com"
+      }
     }
   },
   "submit": {
@@ -56,3 +64,64 @@
     }
   }
 }
+
+
+
+// {
+//   "cli": {
+//     "version": ">= 12.5.3",
+//     "appVersionSource": "remote"
+//   },
+//   "build": {
+//     "development": {
+//       "developmentClient": true,
+//       "distribution": "internal",
+//       "android": {
+//         "buildType": "apk",
+//         "gradleCommand": ":app:assembleDebug"
+//       },
+//       "ios": {
+//         "simulator": true
+//       },
+//       "env": {
+//         "EXPO_PUBLIC_GET_STREAM_API_KEY": "d8dgdyfvmd57",
+//         "EXPO_PUBLIC_API_URL": "https://tubonge-backend-2.onrender.com"
+//       }
+//     },
+//     "development-simulator": {
+//       "developmentClient": true,
+//       "distribution": "internal",
+//       "ios": {
+//         "simulator": true
+//       },
+//       "env": {
+//         "EXPO_PUBLIC_GET_STREAM_API_KEY": "d8dgdyfvmd57",
+//         "EXPO_PUBLIC_API_URL": "https://tubonge-backend-2.onrender.com"
+//       }
+//     },
+//     "preview": {
+//       "distribution": "internal",
+//       "developmentClient": true,
+//       "android": {
+//         "buildType": "apk",
+//         "gradleCommand": ":app:assembleRelease"
+//       },
+//       "ios": {
+//         "simulator": true
+//       }
+//     },
+//     "production": {
+//       "android": {
+//         "buildType": "apk",
+//         "gradleCommand": ":app:assembleRelease"
+//       },
+//       "autoIncrement": true
+//     }
+//   },
+//   "submit": {
+//     "production": {
+//       "android": {}
+//       // "ios": {}
+//     }
+//   }
+// }
