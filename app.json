@@ -4,13 +4,13 @@
     "slug": "tubonge1",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/logo.jpg",
+    "icon": "./assets/images/icon_tubonge.jpg",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/Frame.png",
+      "image": "./assets/images/Frame-1.png",
       "resizeMode": "contain",
-      "backgroundColor": "##1a237e"
+      "backgroundColor": "#4a148c"
     },
     "ios": {
       "supportsTablet": true,
@@ -24,8 +24,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/logo.jpg",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/icon_tubonge.jpg",
+        "backgroundColor": "#4a148c"
       },
       "permissions": [
         "CAMERA",
@@ -52,11 +52,11 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#232323",
-          "image": "./assets/images/Frame.png",
+          "backgroundColor": "#4a148c",
+          "image": "./assets/images/Frame-1.png",
           "dark": {
-            "image": "./assets/images/Frame.png",
-            "backgroundColor": "#000000"
+            "image": "./assets/images/Frame-1.png",
+            "backgroundColor": "#4a148c"
           },
           "imageWidth": 200
         }
